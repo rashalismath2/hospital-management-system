@@ -1,0 +1,8 @@
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\obj\Debug\BI_Layer.Properties.Resources.resources
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\obj\Debug\BI_Layer.csproj.GenerateResource.Cache
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\bin\Debug\BI_Layer.exe.config
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\bin\Debug\BI_Layer.exe
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\bin\Debug\BI_Layer.pdb
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\obj\Debug\BI_Layer.exe
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\obj\Debug\BI_Layer.pdb
+E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\BI_Layer\obj\Debug\BI_Layer.csprojResolveAssemblyReference.cache
