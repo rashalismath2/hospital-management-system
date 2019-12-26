@@ -57,13 +57,14 @@ namespace UI_Layer.UI
             //get doctor id
             string first_name = comboBoxDoctor.Text.Split(' ')[0];
             string last_name = comboBoxDoctor.Text.Split(' ')[1];
-            int doctor_id=this.doctors.Find(x=>x.first_name==first_name && x.last_name==last_name).id;
-
+            Doctor doctor=this.doctors.Find(x=>x.first_name==first_name && x.last_name==last_name);
+        
             //creating a appointment record in doctor_has_patient table
             this.appointment=new Appointment
             {
-                doctor_id = doctor_id,
-                patient_id = int.Parse(txtPatient.Text),
+                //TODO - 1
+                //patient = int.Parse(txtPatient.Text),
+                doctor = doctor,
                 date = dateTimePicker1.Value,
                 appointment_no = int.Parse(comboBoxAppointmentNumber.Text)
             };

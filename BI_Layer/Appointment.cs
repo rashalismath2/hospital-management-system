@@ -8,8 +8,9 @@ namespace BI_Layer
 {
     public class Appointment
     {
-        public int doctor_id { get; set; }
-        public int patient_id { get; set; }
+
+        public Doctor doctor { get; set; }
+        public Patient patient { get; set; }
         public DateTime date { get; set; }
         public int appointment_no { get; set; }
     }

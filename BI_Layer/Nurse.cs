@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BI_Layer
 {
-    public class Doctor
+    public class Nurse
     {
         public int id { get; set; }
-        public int doctor_id { get; set; }
-        public int created_date { get; set; }
         public DateTime dob { get; set; }
         public string contact_resident { get; set; }
         public string contact_mobile { get; set; }
@@ -18,6 +16,10 @@ namespace BI_Layer
         public string gender { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }
-        public string role { get; set; }
+
+        public string password { get; set; }
+        public string email { get; set; }
+
+        public Doctor doctor { get; set; }
     }
 }

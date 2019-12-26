@@ -9,7 +9,6 @@ namespace BI_Layer
     public class Patient
     {
         public int id { get; set; }
-        public int doctor_id { get; set; }
         public int created_date { get; set; }
         public DateTime dob { get; set; }
         public string contact_residen { get; set; }
@@ -18,5 +17,17 @@ namespace BI_Layer
         public string gender { get; set; }
         public string first_name { get; set; }
         public string last_name { get; set; }
+
+        public Doctor Doctor
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

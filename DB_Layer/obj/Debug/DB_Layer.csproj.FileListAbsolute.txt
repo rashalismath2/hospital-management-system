@@ -1,7 +1,6 @@
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\obj\Debug\DB_Layer.csprojResolveAssemblyReference.cache
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\obj\Debug\DB_Layer.Properties.Resources.resources
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\obj\Debug\DB_Layer.csproj.GenerateResource.Cache
-E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\bin\Debug\DB_Layer.exe.config
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\bin\Debug\DB_Layer.exe
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\bin\Debug\DB_Layer.pdb
 E:\class\HND\Lectures\3rd sememster\Ap\System\UI\HMS\DB_Layer\bin\Debug\BI_Layer.exe

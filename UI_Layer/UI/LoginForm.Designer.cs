@@ -35,7 +35,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUsertype = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxUserType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtFormTitile
@@ -58,6 +58,7 @@
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // lblUserName
             // 
@@ -73,7 +74,6 @@
             // 
             this.txtEmail.Location = new System.Drawing.Point(247, 133);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.PasswordChar = '*';
             this.txtEmail.Size = new System.Drawing.Size(169, 20);
             this.txtEmail.TabIndex = 4;
             // 
@@ -105,18 +105,18 @@
             this.lblUsertype.TabIndex = 7;
             this.lblUsertype.Text = "User Type";
             // 
-            // comboBox1
+            // comboBoxUserType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxUserType.FormattingEnabled = true;
+            this.comboBoxUserType.Items.AddRange(new object[] {
             "Doctor",
             "Nurse",
             "Operator",
             "Admin"});
-            this.comboBox1.Location = new System.Drawing.Point(247, 209);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 8;
+            this.comboBoxUserType.Location = new System.Drawing.Point(247, 209);
+            this.comboBoxUserType.Name = "comboBoxUserType";
+            this.comboBoxUserType.Size = new System.Drawing.Size(169, 21);
+            this.comboBoxUserType.TabIndex = 8;
             // 
             // frmLogin
             // 
@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(625, 351);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxUserType);
             this.Controls.Add(this.lblUsertype);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblPassword);
@@ -150,7 +150,7 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblUsertype;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxUserType;
     }
 }
 

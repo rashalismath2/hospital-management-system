@@ -21,8 +21,8 @@ namespace DB_Layer
                 affectedRows = connection.Execute(sql, new {
                                     date =appointment.date,
                                     appointment_no =appointment.appointment_no,
-                                    doctor_id=appointment.doctor_id,
-                                    patient_id=appointment.patient_id});
+                                    doctor_id=appointment.doctor.id,
+                                    patient_id=appointment.doctor.id});
                
             }
             return affectedRows;
@@ -44,8 +44,8 @@ namespace DB_Layer
                 {
                     date = appointment.date,
                     appointment_no = appointment.appointment_no,
-                    doctor_id = appointment.doctor_id,
-                    patient_id = appointment.patient_id
+                    doctor_id = appointment.doctor.id,
+                    patient_id = appointment.patient.id
                 });
 
             }
